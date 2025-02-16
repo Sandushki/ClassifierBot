@@ -42,4 +42,4 @@ async def secim(ctx, *args):
   
   await ctx.send(random.choice(x))
 
-bot.run("MTIzNjcwNzQ3MjI3NDc1NTYxNA.Gleo2c.YXEZlpPDqyjW8I_vMUB9BqQ-AHk59NuZk6SDo0")
+bot.run("TOKEN")
