@@ -17,7 +17,7 @@ async def hello(ctx):
     await ctx.send(f'Hi! I am a bot {bot.user}!')
 
 @bot.command()
-async def heh(ctx, count_heh = 5):
+async def heh(ctx, count_heh):
     await ctx.send("he" * count_heh)
 
 @bot.command()
